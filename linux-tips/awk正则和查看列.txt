@@ -1,0 +1,2 @@
+[查找符合正则表达式：root的行 ] awk -F:  '/root/'  /etc/passwd
+[只显示第一列，分隔符是'\001']  cat /etc/passwd | awk -F '\001' '{print $1}' 

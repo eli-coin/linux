@@ -1,0 +1,8 @@
+find . -name '*' -type f -print | xargs grep 'hello world!' -sl
+find .  -type f -print | xargs grep 'Tips' --no-messages -l
+
+
+
+【查找当前目录及子目录下的文件名称】
+find . -name '*tmp*'
+[locate 与 find / -name 等价,从根目录按文件名称查找]

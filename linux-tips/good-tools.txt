@@ -1,0 +1,2 @@
+[xsel] 将标准输出重定向到剪切板 bash>cat ex.txt | xsel
+

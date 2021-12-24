@@ -1,0 +1,6 @@
+which ls	ls命令位置
+whereis ls	ls命令位置和man手册位置
+whatis ls	ls用法简介
+ls -help	[help ls]	ls用法简要说明
+man ls 		ls详细说明
+info ls		ls最全信息说明
